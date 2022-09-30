@@ -1,0 +1,48 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.login {
+    background-color: rgba(0,0,0,0.3 );
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Image1/backgrounglogin.jpg);
+    flex-direction: column;
+}
+
+.bDangnhap {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightcoral;
+    transition-duration: 0.4s;
+}
+
+    .bDangnhap:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        cursor: pointer;
+    }
+
+.input {
+    width: 300px;
+    height: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
